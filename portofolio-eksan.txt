@@ -2,3 +2,4 @@ Portofolio Eksan
 - Header nama
 - body project
 - body contact
+- body hobbies

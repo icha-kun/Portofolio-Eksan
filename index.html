@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     
+    <!-- Navbar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="nav-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#home" class="navbar-brand page-scroll">Eksan Wahyu Anggara</a>
+          </div>
+          <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about" class="page-scroll">About</a></li>
+              <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+              <li><a href="#contact" class="page-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--  End Navbar-->
+
+     <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/Profile.jpg" alt="foto eksan" class="img-circle">
+      <h1>Eksan Wahyu Anggara</h1>
+      <p>Kesehatan Masyarakat | Sistem Informasi Kesehatan | Programer Kesehatan</p>
+    </div>
+    <!-- akhir Jumbotron -->
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nisi nostrum vitae nihil fugit deserunt veniam perferendis aliquid et odio numquam tempora. Ullam temporibus rerum incidunt aliquam quam, sed animi!</p>
+          </div>
+          <div class="col-sm-4">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum animi alias fuga unde odio praesentium cupiditate corrupti vero aperiam in voluptates suscipit minima aut enim modi beatae eaque, qui libero?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center"> 
+            <h2>Portfolio</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="https://codepen.io/icha-kun/full/OJPVWWw" class="thumbnail">
+              <img src="img/Pj-0001.png" alt="Project-1" >
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="https://codepen.io/icha-kun/full/mdPzpXe" class="thumbnail">
+              <img src="img/Pj-0002.png" alt="Project-1" >
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="https://codepen.io/icha-kun/full/MWyPLGd" class="thumbnail">
+              <img src="img/Pj-0003.png" alt="Project-1" >
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="https://codepen.io/icha-kun/full/xxVBoeG" class="thumbnail">
+              <img src="img/Pj-0004.png" alt="Project-1" >
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="https://codepen.io/icha-kun/full/ExyEgZR" class="thumbnail">
+              <img src="img/Pj-0005.png" alt="Project-1" >
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="https://codepen.io/icha-kun/full/MWvPEGR" class="thumbnail">
+              <img src="img/Pj-0006.png" alt="Project-1" >
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Portfolio -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Contact</h2>
+            <hr>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" class="form-control" placeholder="masukan nama">
+              </div>
+              <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" id="Email" class="form-control" placeholder="masukan Email">
+              </div>
+              <div class="form-group">
+                <label for="telp">No Telepon</label>
+                <input type="tel" id="telp" class="form-control" placeholder="masukan no telepon">
+              </div>
+              <select class="form-control">
+                <option>-- Pilih Kategori --</option>
+                <option>Web Design</option>
+                <option>Web Development</option>
+              </select>
+              <div class="form-group">
+                  <label for="pesan">pesan</label>
+                 <textarea rows="10" class="form-control" placeholder="Masukan pesan"></textarea>
+              </div>
+             <button type ="submit" class="btn btn-primary">Kirim pesan</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p>&copy; copyright 2022 | built with <i class="glyphicon glyphicon-heart"></i> <a href="https://www.instagram.com/angara24">Eksan Anggara</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <a href="https://myanimelist.net/profile/Icha-kun" class="btn btn-info">follow my MAL</a>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir Footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
